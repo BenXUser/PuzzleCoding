@@ -24,8 +24,8 @@ of User A.
 So that at the end the result looks like this:
 
 /* ======= HAIKU =======
-  	Comment block of
-  	USER A HAIKU
+	Comment block of
+	USER A HAIKU
 */
 /**
  * Documentation block of USER A
@@ -39,8 +39,8 @@ And the cycle repeats where User B, implements his function, writes a Haiku
 and User A tries to document User's B function.
 
 /* ======= HAIKU =======
-  	Comment block of
-  	USER B HAIKU
+	Comment block of
+	USER B HAIKU
 */
 /**
  * Documentation block of USER B
