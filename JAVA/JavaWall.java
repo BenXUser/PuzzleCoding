@@ -9,12 +9,11 @@
 
 public class JavaWall {
 
-	/**
-	 * ======= HAIKU =======
-	 * Entered in Java
-	 * I sent an invitation
-	 * Let's code a neat wall!
-	 */
+	/* ======= HAIKU =======
+   	  	Entered in Java
+   	  	I sent an invitation
+   	  	Let's code a neat wall!
+	*/
 	public boolean confirmExit() {
 		System.out.println("Are you sure? (YES or NO)");
 		String option = input.nextLine().toLowerCase();
@@ -31,5 +30,4 @@ public class JavaWall {
 		System.out.println("Returning to menu.");
 		return false;
 	}
-
 }
