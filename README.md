@@ -7,12 +7,12 @@ https://syllablecounter.io/poetry/haiku-checker
 
 
 Example:
-```
 User A, writes a Haiku, and then implements a function or vice versa.
+```
 /* ======= HAIKU =======
-	5 Sylables sentence
-	7 Sylables sentence
-	5 Sylables sentece
+5 Sylables sentence
+7 Sylables sentence
+5 Sylables sentece
 */
 public boolean foo1() {
 	// Function Body
@@ -26,8 +26,8 @@ of User A.
 So that at the end the result looks like this:
 ```
 /* ======= HAIKU =======
-	Comment block of
-	USER A HAIKU
+Comment block of
+USER A HAIKU
 */
 /**
  * Documentation block of USER A
@@ -43,8 +43,8 @@ and User A tries to document User's B function.
 
 ```
 /* ======= HAIKU =======
-	Comment block of
-	USER B HAIKU
+Comment block of
+USER B HAIKU
 */
 /**
  * Documentation block of USER B
