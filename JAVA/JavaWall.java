@@ -30,4 +30,19 @@ public class JavaWall {
 		System.out.println("Returning to menu.");
 		return false;
 	}
+
+	/* ======= HAIKU =======
+		Are they friends? She acts
+		disdained - "...o gajo está..."
+		They laughed while muted.
+	*/
+	public int retrieveArrayIndex(T[] array, T search){
+		for (int index = 0; index < array.length; index++) {
+			if (array[index].equals(search)) {
+				return index;
+			}
+		}
+		return -1;
+	}
+
 }
