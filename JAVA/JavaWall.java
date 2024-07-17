@@ -2,7 +2,7 @@
  * @Author Swee4T
  * @Author BenXUser
  * @File JavaWall.java
- * @Copyright Ruben-X-Nunes & Swee4T
+ * @Copyright BenXUser & Swee4T
  * @Brief TBA
  * @Date 07/09/2024
  */
@@ -32,9 +32,9 @@ public class JavaWall {
 	}
 
 	/* ======= HAIKU =======
-		Are they friends? She acts
+		Are they listen? She acts
 		disdained - "...o gajo está..."
-		They laughed while muted.
+		They listened while muted.
 	*/
 	public int retrieveArrayIndex(T[] array, T search){
 		for (int index = 0; index < array.length; index++) {
