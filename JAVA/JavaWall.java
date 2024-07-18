@@ -1,8 +1,8 @@
 /**
+ * @Author BenXUser
  * @Author Swee4T
- * @Author Ruben-X-Nunes
  * @File JavaWall.java
- * @Copyright Ruben-X-Nunes & Swee4T
+ * @Copyright BenXUser & Swee4T
  * @Brief TBA
  * @Date 07/09/2024
  */
