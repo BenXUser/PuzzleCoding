@@ -1,6 +1,10 @@
 /**
  * @Author BenXUser
  * @Author Swee4T
+<<<<<<< HEAD
+=======
+ * @Author BenXUser
+>>>>>>> 75762b775ffd66625e1d70bd72ceb72dbd95977f
  * @File JavaWall.java
  * @Copyright BenXUser & Swee4T
  * @Brief TBA
@@ -32,9 +36,9 @@ public class JavaWall {
 	}
 
 	/* ======= HAIKU =======
-		Are they friends? She acts
+		Are they listen? She acts
 		disdained - "...o gajo está..."
-		They laughed while muted.
+		They listened while muted.
 	*/
 	public int retrieveArrayIndex(T[] array, T search){
 		for (int index = 0; index < array.length; index++) {
