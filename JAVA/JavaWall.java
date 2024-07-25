@@ -1,10 +1,6 @@
 /**
  * @Author BenXUser
  * @Author Swee4T
-<<<<<<< HEAD
-=======
- * @Author BenXUser
->>>>>>> 75762b775ffd66625e1d70bd72ceb72dbd95977f
  * @File JavaWall.java
  * @Copyright BenXUser & Swee4T
  * @Brief TBA
@@ -48,5 +44,32 @@ public class JavaWall {
 		}
 		return -1;
 	}
+
+	/* ======= HAIKU =======
+		High temperatures
+		are not a warning enough
+		for humans to stop
+	*/
+	public void breakLines(int n) {
+		if (n > 0) {
+			System.out.println();
+			breakLines( n - 1);
+		}
+	}
+
+	/* ======= HAIKU =======
+		The system will be
+		fucked not by one mind but
+		by a collective
+	*/
+	public boolean isSingleDigit(int digit) {
+		if (x > -10 && x < 10) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+
 
 }
