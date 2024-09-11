@@ -70,6 +70,19 @@ public class JavaWall {
 		}
 	}
 
-
+	/* ===== HAIKU =====
+		Tough as spectator
+		Where darkness lies around, is
+		a shadow unseen
+	*/
+	public void countdown(int number) {
+		if (number == 0) {
+			System.out.println("GO!");
+		} else {
+			System.out.println(number);
+			Thread.sleep(999);
+			coundown (number - 1);
+		}
+	}
 
 }
