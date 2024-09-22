@@ -85,4 +85,17 @@ public class JavaWall {
 		}
 	}
 
+	/* ===== HAIKU =====
+		Avoiding the news.
+		Is it ignoring or is
+		it protecting off?
+	*/
+	public void printCollection(Collection c) {
+		Iterator i = c.iterator();
+
+		while (i.hasNext()) {
+			System.out.println(i.next());
+		}
+	}
+
 }
